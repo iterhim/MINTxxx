@@ -345,9 +345,9 @@ a {
   .body-container .another_collections_block .collection .left_collection .magic-eden-logo {
     max-height: 120px;
   }
-  .head_container .text_block h1 {
-    margin-right: 80px;
-  }
+  /*.head_container .text_block h1 {*/
+  /*  margin-right: 80px;*/
+  /*}*/
   .body-container .another_collections_block .popular_collections .collection-elements .left-arrow, .body-container .another_collections_block .popular_collections .collection-elements .right-arrow {
     max-width: 10px;
   }
