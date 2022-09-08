@@ -1,0 +1,585 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-gradient {
+  background: linear-gradient(180deg, #F8F9FA 0%, #CEC1D0 50%, #FFFFFF 100%);
+  padding-bottom: 130px;
+}
+
+@media screen and (min-width: 1210px) {
+  .body-container .another_collections_block .collection .left_collection .magic-eden-text {
+    max-width: 280px;
+  }
+  .full-info-block .ads-block .button {
+    margin: 0 0 0 auto;
+  }
+  .full-info-block .about-collection .collection-info h3 {
+    font-size: 40px;
+  }
+  .full-info-block .about-collection .collection-info p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1209px) {
+  .body-container .another_collections_block .collection .left_collection .magic-eden-text {
+    max-width: 180px;
+  }
+  .full-info-block .about-collection .collection-info p {
+    font-size: 18px;
+  }
+  .full-info-block .ads-block {
+    flex-direction: column;
+    text-align: center;
+  }
+  .full-info-block .ads-block .button {
+    margin: 15px auto auto;
+  }
+  .full-info-block .about-collection .collection-info h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1049px) {
+  .body-container .another_collections_block .collection .left_collection .magic-eden-text {
+    min-width: 300px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements {
+    grid-template-areas: "a a a a" "a a a a";
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .left-arrow.phone, .body-container .another_collections_block .popular_collections .collection-elements .right-arrow.phone {
+    display: block;
+  }
+  .body-container .another_collections_block .collection {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .body-container .another_collections_block .collection .left_collection, .body-container .another_collections_block .collection .right_collection {
+    max-width: 100%;
+  }
+  .body-container .another_collections_block .collection .left_collection {
+    height: 270px;
+  }
+  .body-container .another_collections_block .collection .right_collection {
+    max-height: 400px;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .body-container .another_collections_block .popular_collections {
+    margin-bottom: 100px;
+  }
+  .body-container .another_collections_block .collection .left_collection, .body-container .another_collections_block .collection .right_collection {
+    max-width: 50%;
+    min-width: 45%;
+    max-height: 270px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements {
+    grid-template-areas: "a a a a a a";
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .element .added_frame h6 {
+    text-align: start;
+  }
+  .body-container .another_collections_block .collection {
+    gap: 5%;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .left-arrow.phone, .body-container .another_collections_block .popular_collections .collection-elements .right-arrow.phone {
+    display: none;
+  }
+}
+@media screen and (max-width: 999px) {
+  .head_container .text_block h1 {
+    font-size: 50px;
+  }
+  .head_container .collection_block .basic_info {
+    gap: 16px;
+    min-height: 140px;
+  }
+  .head_container .collection_block {
+    flex-direction: column;
+  }
+  .full-info-block .about-collection .collection-logo-frame {
+    display: none;
+  }
+  .full-info-block .about-collection .collection-info .phone-collection-logo {
+    display: block;
+  }
+  .full-info-block .about-collection .collection-info {
+    justify-content: center;
+  }
+  .head_container .collection_block {
+    margin: 40px auto 0;
+  }
+  .head_container .collection_block .basic_info {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .full-info-block .about-collection .collection-info h3 {
+    margin-bottom: 35px;
+  }
+  .full-info-block .about-collection .collection-info .phone-collection-logo {
+    display: none;
+  }
+  .head_container .collection_block {
+    margin: 80px auto 0;
+  }
+  .head_container .text_block h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 881px) {
+  .full-info-block .ads-block .button a {
+    font-size: 44px;
+  }
+  .full-info-block .ads-block .button a {
+    font-size: 32px;
+  }
+  .full-info-block .ads-block .button {
+    padding: 27px 60px;
+  }
+  .full-info-block .ads-block h2 {
+    font-size: 44px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .full-info-block .ads-block .button a {
+    font-size: 22px;
+  }
+  .full-info-block .ads-block .button {
+    padding: 15px 40px;
+  }
+  .full-info-block .ads-block h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 781px) {
+  .body-container .another_collections_block .popular_collections h2 {
+    font-size: 40px;
+  }
+  .body-container .another_collections_block .collection .left_collection h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .body-container .another_collections_block .popular_collections h2 {
+    font-size: 31.5px;
+  }
+  .body-container .another_collections_block .collection .left_collection h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .full-info-block .about-collection .collection-info h3 {
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .full-info-block .about-collection .collection-info h3 {
+    margin-right: 0px;
+  }
+  .head_container .text_block h1 {
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 591px) {
+  .body-container .another_collections_block .collection .left_collection .magic-eden-text-alt {
+    display: none;
+  }
+}
+@media screen and (max-width: 590px) {
+  .body-container .another_collections_block .collection .left_collection .magic-eden-text {
+    display: none;
+  }
+  .body-container .another_collections_block .collection .left_collection .magic-eden-text-alt {
+    display: block;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 541px) {
+  .full-info-block .about-collection {
+    padding: 50px 45px;
+  }
+  .full-info-block .about-collection .collection-info .phone-collection-logo {
+    min-width: 80%;
+  }
+  .body-container .another_collections_block .collection .left_collection .magic-eden-logo {
+    max-height: 160px;
+  }
+  .head_container .text_block {
+    text-align: center;
+  }
+  .head_container .text_block h4 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .body-container .another_collections_block .collection .left_collection h2 {
+    text-align: right;
+  }
+}
+@media screen and (max-width: 540px) {
+  .head_container .collection_block .collection_logo img {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .full-info-block .about-collection .collection-info p {
+    font-size: 14px;
+  }
+  .full-info-block .about-collection {
+    padding: 30px 25px;
+  }
+  .full-info-block .about-collection .collection-info .phone-collection-logo {
+    min-width: 100%;
+  }
+  .head_container .collection_block {
+    margin: 40px auto 0;
+  }
+  .head_container .text_block {
+    text-align: start;
+  }
+  .head_container .text_block h1 {
+    font-size: 40px;
+    margin-right: 40px;
+  }
+  .head_container .text_block h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .body-container .another_collections_block .collection .left_collection .magic-eden-logo {
+    max-height: 150px;
+  }
+}
+@media screen and (min-width: 510px) {
+  .full-info-block .ads-block {
+    padding: 45px;
+    margin: auto auto 125px;
+  }
+  .head_container .collection_block {
+    padding-bottom: 160px;
+  }
+  .head_container .collection_block .basic_info .info_block p {
+    font-size: 20px;
+  }
+  .head_container .collection_block .basic_info .info_block h2 {
+    font-size: 30px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .element {
+    max-width: 192px;
+    border-radius: 20px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .element .added_frame .nft-icon {
+    max-width: 136px;
+    border-radius: 20px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .element .added_frame {
+    padding: 5px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .element .added_frame .nft-icon {
+    margin: auto auto 15px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .element .added_frame h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 509px) {
+  .full-info-block .ads-block {
+    padding: 25px;
+    margin: auto auto 60px;
+  }
+  .head_container .collection_block {
+    padding-bottom: 115px;
+  }
+  .head_container .collection_block .basic_info {
+    margin: 0;
+  }
+  .head_container .collection_block .basic_info .info_block img {
+    max-height: 18px;
+  }
+  .head_container .collection_block .basic_info .info_block p {
+    font-size: 14px;
+  }
+  .head_container .collection_block .basic_info .info_block h2 {
+    font-size: 20px;
+  }
+  .full-info-block .ads-block .button {
+    padding: 8px 30px;
+  }
+  .full-info-block .ads-block .button a {
+    font-size: 14px;
+  }
+  .full-info-block .ads-block h2 {
+    font-size: 20px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .left-arrow, .body-container .another_collections_block .popular_collections .collection-elements .right-arrow {
+    max-width: 15px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .element {
+    max-width: 156px;
+    border-radius: 10px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .element .added_frame .nft-icon {
+    max-width: 136px;
+    border-radius: 10px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .element .added_frame {
+    padding: 0px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .element .added_frame .nft-icon {
+    margin: auto auto 10px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .element .added_frame h6 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 421px) {
+  .body-container .another_collections_block .collection .left_collection .magic-eden-text {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 420px) {
+  .body-container .another_collections_block .collection .left_collection .magic-eden-logo {
+    max-height: 120px;
+  }
+  .head_container .text_block h1 {
+    margin-right: 80px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .left-arrow, .body-container .another_collections_block .popular_collections .collection-elements .right-arrow {
+    max-width: 10px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .element {
+    max-width: 126px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .element .added_frame .nft-icon {
+    max-width: 106px;
+  }
+  .body-container .another_collections_block .popular_collections .collection-elements .element .added_frame {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .full-info-block .about-collection .collection-info h3 {
+    font-size: 25px;
+  }
+}
+.full-info-block {
+  max-width: 100%;
+  margin: auto;
+}
+.full-info-block .ads-block {
+  max-width: 90%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.full-info-block .ads-block::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(92.96deg, #950FE7, #F54BA1) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.full-info-block .ads-block h2 {
+  font-weight: 400;
+  color: #000000;
+}
+.full-info-block .ads-block h2 span {
+  font-weight: 900;
+}
+.full-info-block .ads-block .button {
+  background: linear-gradient(96.91deg, #920DE8 1.06%, #FA4E9D 100%);
+  border-radius: 100px;
+  display: inline-flex;
+}
+.full-info-block .ads-block .button a {
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.full-info-block .about-collection {
+  display: flex;
+  max-width: 90%;
+  margin: auto;
+  position: relative;
+  gap: 50px;
+}
+.full-info-block .about-collection::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(92.96deg, #950FE7, #F54BA1) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.full-info-block .about-collection .collection-logo-frame {
+  margin: auto;
+}
+.full-info-block .about-collection .collection-logo-frame .collection_logo {
+  grid-area: image;
+  max-width: 197px;
+  border-radius: 20px;
+}
+.full-info-block .about-collection .collection-info .collection-logo-frame {
+  max-width: 100%;
+}
+.full-info-block .about-collection .collection-info .phone-collection-logo {
+  border-radius: 20px;
+  max-width: 100%;
+  margin: 25px auto;
+}
+.full-info-block .about-collection .collection-info h3 {
+  grid-area: header;
+  font-weight: 400;
+  color: #000000;
+}
+.full-info-block .about-collection .collection-info h3 span {
+  font-weight: 700;
+}
+.full-info-block .about-collection .collection-info p {
+  grid-area: text;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.head_container {
+  max-width: 100%;
+  margin: auto;
+}
+.head_container .text_block {
+  padding-top: 54px;
+  max-width: 90%;
+  margin: auto;
+}
+.head_container .text_block h4 {
+  font-weight: 700;
+  color: #000000;
+}
+.head_container .text_block h1 {
+  font-weight: 900;
+  background: linear-gradient(98.45deg, #930DE9 2.39%, #E642AC 97.36%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+.head_container .collection_block {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  max-width: 90%;
+}
+.head_container .collection_block .collection_logo {
+  filter: drop-shadow(-19px 2px 20px rgba(0, 0, 0, 0.25));
+  display: flex;
+}
+.head_container .collection_block .collection_logo img {
+  border-radius: 20px;
+  margin: auto;
+}
+.head_container .collection_block .basic_info {
+  display: grid;
+}
+.head_container .collection_block .basic_info .info_block {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.head_container .collection_block .basic_info .info_block p {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
+}
+.head_container .collection_block .basic_info .info_block h2 {
+  font-weight: 900;
+  line-height: 35px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.body-container {
+  max-width: 100%;
+  margin: auto;
+}
+.body-container .another_collections_block {
+  max-width: 90%;
+  margin: auto;
+  gap: 90px;
+}
+.body-container .another_collections_block .collection {
+  max-width: 100%;
+  margin: auto auto 130px;
+  display: flex;
+}
+.body-container .another_collections_block .collection .left_collection, .body-container .another_collections_block .collection .right_collection {
+  display: flex;
+  background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(92.96deg, #950FE7, #F54BA1) border-box;
+  border: 2px solid transparent;
+  position: relative;
+  border-radius: 20px;
+  align-items: center;
+}
+.body-container .another_collections_block .collection .left_collection {
+  justify-content: end;
+  display: flex;
+}
+.body-container .another_collections_block .collection .left_collection .magic-eden-text {
+  width: auto;
+}
+.body-container .another_collections_block .collection .left_collection h2 {
+  font-weight: 400;
+  color: #000000;
+}
+.body-container .another_collections_block .collection .left_collection h2 span {
+  font-weight: 700;
+}
+.body-container .another_collections_block .collection .right_collection {
+  align-items: start;
+  overflow: hidden;
+}
+.body-container .another_collections_block .collection .right_collection img {
+  max-width: 100%;
+}
+.body-container .another_collections_block .popular_collections h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #000000;
+}
+.body-container .another_collections_block .popular_collections .collection-elements {
+  max-width: 90%;
+  margin: 40px auto auto;
+  display: grid;
+  justify-content: center;
+  gap: 5%;
+}
+.body-container .another_collections_block .popular_collections .collection-elements .left-arrow {
+  margin: auto 0;
+  transform: rotate(180deg);
+}
+.body-container .another_collections_block .popular_collections .collection-elements .right-arrow {
+  margin: auto 0;
+}
+.body-container .another_collections_block .popular_collections .collection-elements .element {
+  background: linear-gradient(138.71deg, #900CEA 0%, #FA4E9D 100%);
+  justify-content: center;
+  padding: 10px;
+}
+.body-container .another_collections_block .popular_collections .collection-elements .element .added_frame {
+  margin: auto;
+  text-align: center;
+}
+.body-container .another_collections_block .popular_collections .collection-elements .element .added_frame .nft-icon {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.body-container .another_collections_block .popular_collections .collection-elements .element .added_frame h6 {
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
