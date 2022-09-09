@@ -152,6 +152,12 @@
     }
 }
 @media screen and (max-width: 1000px) {
+    .Hidden_main_text_second_img{
+        display: flex;
+        margin: 0 5px;
+        display: flex;
+        gap: 10px;
+    }
     .main_text_second_img{
         display: none;
     }
